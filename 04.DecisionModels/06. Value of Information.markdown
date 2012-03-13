@@ -1,0 +1,3 @@
+## Value of Information
+
+With the decision tree, we can calculate the value of the information. To do that, we just need to calculate the difference between the outcome without the information and the outcome with the information.
