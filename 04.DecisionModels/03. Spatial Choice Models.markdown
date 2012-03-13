@@ -1,0 +1,8 @@
+## Spatial Choice Models
+
+The idea is to distribute the options in space and choose whichever is closest to the ideal point in space. Similar to the idea of buying and ice cream from a vendor at the beach that is closest to you.
+
+The idea can be applied to multiple dimensions, using vectors of options. Calculate the |difference| between the ideal choice and the ones being analyzed. This can be apllied, for example, to choose who to vote for. 
+
+This technique can be used in reverse (positively) to try and find out characteristics about people's choices. Observing the choices people make, you can eliminate similar dimensions and look at the ones that differ to try to assess those decisions.
+
