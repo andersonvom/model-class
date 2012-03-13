@@ -1,0 +1,53 @@
+## Decision Trees
+
+They're helpful when there are lots of contingencies or probabilistic events (uncertainty of the future). Decision tree is made of branches that represent the possible choices and the branch that has the highest payoff gets chosen. Choices are usually hard and there are probabilities or contingencies.
+       
+     /* *
+    *  /
+     \*
+       \
+        *
+    
+    1. Ticket for 3pm: $200
+    2. 40% chance that I won't make it
+    3. Ticket for 4pm: $400
+    Which ticket do I buy?
+
+Here's the decision tree for this problem:
+
+             -----> $200
+            /Make .6           
+       --- *
+      /     \Late .4
+     /Buy    -----> $600
+    *         
+     \
+      -----> $400
+    
+    Cost of buying the 3pm ticket:
+    (0.6 * 200) + (0.4 * 600) = 120 + 240 = $360
+    Cost of buying the 4pm ticket:
+    $400
+    
+    The best choice is to buy the 3pm ticket ($360).
+
+Another example:
+
+    Scholarship: $5000
+    200 applicants
+      2 page essay
+    10 finalists
+      10 page essay
+    What to do?
+    
+    Estimate the costs of writing the essays:
+    2 page: $20
+    4 page: $40
+
+What to do?
+
+* Step 1: Draw tree
+* Step 2: Write down payoffs and probabilities
+* Step 3: Solve Backwards
+
+
