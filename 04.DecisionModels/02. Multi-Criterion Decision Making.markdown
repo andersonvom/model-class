@@ -1,0 +1,12 @@
+## Multi-Criterion Decision Making
+
+### Qualitative
+
+No numbers, which is better (e.g. choosing between two houses: square feet, # bedrooms, location, etc). Enumerate all characteristics for each house and summing up the total of wins for each characteristic.
+
+If after doing the analysis, you don't loki house #1 (supposed this was the winner). Maybe some criteria was missing (add this criteria and restart). Was house #2 any good too?
+
+### Quantitative
+
+Assign weights to each criterion, meaning how much you care, or how much they are really important. This should not tell you what to do, but rather make an informed decision.
+
