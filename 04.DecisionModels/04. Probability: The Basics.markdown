@@ -1,0 +1,45 @@
+## Probability: The Basics
+
+### Axioms
+
+* Probability of an outcome [0, 1]
+* Sum of all possible outcomes equals to 1
+* _A_ subset of _B_, then `Prob(B) >= Prob(A)`
+
+### Classical
+
+You can write down what the probability is going to be. For example:
+
+    # When rolling a die
+    Prob(4)    = 1/6
+    Prob(Even) = 1/2
+    Prob(Odd)  = 1/2
+
+### Frequency
+
+You can count and estimate the probability. For example:
+
+    # Do more words begin with _r_ or have _r_ as their third letter?
+    - Count the words in a dictionary
+    - Ramdomly browser the dictionary
+    
+    # Is it going to rain next June 7th?
+    - Count the number of days it rained in the last 100 years
+    - Assumption that nothing has changed over the last 100 yers (stationarity)
+
+### Subjective
+
+You have to guess what the probability is. A model might help doing so.
+
+    # Shelly majored in political science and was very involved
+    # in the college republicans. Write down probabilities for
+    # the following events:
+    - Event A: Flight attendant (5%)
+    - Event B: Blogger (10%)
+    - Event C: FLight attendant while finishing her MBA (10%)
+    - Event D: Medical field (15%)
+
+Something was wrong in the last example. `Event C` is contained in `Event A`, so its probability cannot be higher.
+
+Whenever trying to do Subjective probability, we will try to use a model to better estimate our odds.
+
