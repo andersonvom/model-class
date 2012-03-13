@@ -1,0 +1,31 @@
+## Introduction to Decision Making
+
+### Normative
+
+Make us better at deciding. It will help with decisions like:
+
+* what school to attend
+* what car to buy
+* where to invest
+* etc...
+
+### Positive
+
+Predict behavior or choices of yourself and others. It will help understanding things like:
+
+* Policy or Technology choices
+* Nominations
+* Political platforms
+* Investments
+* etc...
+
+### Classes of Models
+
+#### Multi-Criterion (lots of dimensions)
+
+Choosing between two cars. Enumerate criteria and list pros and cons. Spatial comparison (e.g. speed x comfort). Choosing the car closer to the ideal point.
+
+#### Probabilistic (balance risks because of uncertainty)
+
+Choices with uncertainty (e.g. apply to a university). Make a decision tree and calculate the probability of each branch. Calculate the value of the information if the uncertainty went away.
+
